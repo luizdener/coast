@@ -1,12 +1,15 @@
+import Navbar from "./components/navbar/Navbar"
+import { Outlet } from 'react-router-dom'
 
 import './styles/globals.scss'
 
 function App() {
-
   return (
     <div className="App">
+      <Navbar/>
       <h1>Projeto Coast</h1>
-      <p>coasts</p>
+      <Outlet/>
+      <p>footer</p>
     </div>
   )
 }
