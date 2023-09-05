@@ -1,0 +1,17 @@
+.btn-click {
+    background-color: #222;
+    padding: .5em 1em;
+    
+    color: #fff;
+    text-decoration: none;
+
+    border: none;
+
+    height: 50%;
+
+    transition: .5s;
+}
+
+.btn-click:hover {
+    color: #ffbb33;
+}

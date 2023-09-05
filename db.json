@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "name": "Cost",
+      "budget": "58777",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 5000,
+      "services": [
+        {
+          "name": "teste 3",
+          "cost": "5000",
+          "id": "b881970e-a5e4-40c7-9bdf-9ec5b7032326"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

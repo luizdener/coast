@@ -1,0 +1,21 @@
+.btn {
+    background-color: #222;
+    padding: .5em 1em;
+    
+    color: #fff;
+    text-decoration: none;
+
+    transition: .5s;
+}
+
+.edit::before {
+    content: 'Editar';
+}
+
+.erase::before {
+    content: 'Apagar';
+}
+
+.btn:hover {
+    color: #ffbb33;
+}

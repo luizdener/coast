@@ -1,0 +1,89 @@
+.card-projeto {
+    width: 24%;
+    padding: 1em;
+    margin: 0.5%;
+
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+
+    h4 {
+        background-color: #222;
+
+        font-size: 1.3em;
+        color: #ffbb33;
+
+        padding: .4em;
+        margin-bottom: 1.3em;
+    }
+
+    p {
+        color: #7a7a7a;
+        margin-bottom: 1em;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .category-text {
+        display: flex;
+        align-items: center;
+
+        span {
+            display: block;
+            width: 12px;
+            height: 12px;
+
+            border-radius: 50%;
+            background-color: #ccc;
+
+            margin-right: 5px;
+        }
+
+        .infra {
+            background-color: #ffaebc;
+        }
+
+        .desenvolvimento {
+            background-color: #a0e7e5;
+        }
+
+        .design {
+            background-color: #b4f8c8;
+        }
+
+        .planejamento {
+            background-color: #fbe7c6;
+        }
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+
+        button{
+            border: none;
+
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            gap: .5em;
+
+            border-radius: 4px;
+            background-color: white;
+
+            color: black;
+
+            border: 1px solid #7a7a7a;
+
+            transition: .6s;
+        }
+
+        .btn:hover{
+            background-color: #222;
+            color: #ffbb33;
+        }
+    }
+}
